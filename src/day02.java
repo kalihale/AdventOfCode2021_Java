@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * @author Kali Hale
  * @since 2021-12-01
  */
-public class day2
+public class day02
 {
     public static int position(ArrayList<String> commands) throws Exception
     {
@@ -67,7 +67,7 @@ public class day2
     {
         try
         {
-            File file = new File("/home/kali/IdeaProjects/AdventOfCode2021/src/day2.txt");
+            File file = new File("/home/kali/IdeaProjects/AdventOfCode2021/src/day02.txt");
             BufferedReader br = new BufferedReader(new FileReader(file));
             ArrayList<String> commands = new ArrayList<>();
             String line;

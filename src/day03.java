@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * @author Kali Hale
  * @since 2021-12-11
  */
-public class day3
+public class day03
 {
     public static String gammaRate(ArrayList<String> al)
     {
@@ -149,7 +149,7 @@ public class day3
     {
         try
         {
-            File file = new File("/home/kali/IdeaProjects/AdventOfCode2021/src/day3.txt");
+            File file = new File("/home/kali/IdeaProjects/AdventOfCode2021/src/day03.txt");
             BufferedReader br = new BufferedReader(new FileReader(file));
             ArrayList<String> binary = new ArrayList<>();
             String line;

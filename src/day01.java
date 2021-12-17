@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * @author Kali Hale
  * @since 2021-12-01
  */
-public class day1
+public class day01
 {
     public static int numberBiggerThan(ArrayList<Integer> measurements)
     {
@@ -51,7 +51,7 @@ public class day1
     {
         try
         {
-            File file = new File("/home/kali/IdeaProjects/AdventOfCode2021/src/day1.txt");
+            File file = new File("/home/kali/IdeaProjects/AdventOfCode2021/src/day01.txt");
             BufferedReader br = new BufferedReader(new FileReader(file));
             ArrayList<Integer> measurements = new ArrayList<>();
             String line;

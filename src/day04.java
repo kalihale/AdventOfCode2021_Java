@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * Very much brute forced, but without sorting the boards somehow or using a hashmap, I don't think there's
  * a better way to do it.
  */
-public class day4
+public class day04
 {
     static int winningNumber;
 
@@ -117,7 +117,7 @@ public class day4
     {
         try
         {
-            File file = new File("/home/kali/IdeaProjects/AdventOfCode2021/src/day4.txt");
+            File file = new File("/home/kali/IdeaProjects/AdventOfCode2021/src/day04.txt");
             BufferedReader br = new BufferedReader(new FileReader(file));
             ArrayList<Integer> numbers = new ArrayList<>();
             String line = br.readLine();
@@ -153,6 +153,44 @@ public class day4
         }catch(Exception e)
         {
             System.out.println("File handling error");
+        }
+    }
+
+    /**
+     * ／(•ㅅ•)＼
+     *
+     * @author Kali Hale
+     * @since 2021-12-11
+     */
+    public static class Bingo
+    {
+        int key;
+        boolean value;
+
+        Bingo(int key)
+        {
+            this.key = key;
+            this.value = false;
+        }
+
+        public int getKey()
+        {
+            return key;
+        }
+
+        public void setKey(int key)
+        {
+            this.key = key;
+        }
+
+        public void setValue(boolean value)
+        {
+            this.value = value;
+        }
+
+        public boolean getValue()
+        {
+            return value;
         }
     }
 }
